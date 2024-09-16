@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <form action="/registro" method="post">
+
+
+        <fieldset>
+            <legend>Datos Personales</legend>
+
+        <div>
+            <label for="nombre">Nombre :</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+
+            <label for="Apellido">Apellido:</label>
+            <input type="text" id="Apellido" name="Apellido" required>
+        </div>
+
+        <div>
+            <label for="Email">Email:</label>
+            <input type="Email" id="Email" name="Email" required>
+        </div>
+
+        <div>
+            <label for="Nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="date" name="date" required>
+            
+        </div>
+
+        <div>
+            <label for="DNI">DNI</label>
+            <input type="Number" id="Number" name="Number" required>
+        </div>
+
+        <div>
+            <label for="Telefono">Telefono</label>
+            <input type="tel" name="Telefono" id="Telefono" required>
+        </div>
+
+        <div>
+            <label for="Usuario">Nombre de usuario:</label>
+            <input type="text" name="Usuario" id="Usuario" name="Usuario" required>
+        </div>
+
+        <div>
+            <label for="Usuario IG">Usuario de Instagram: </label>
+            <input type="text" name="Usuario IG" id="Usuario IG" name="Usuario IG">
+        </div>
+
+
+
+        <label for="Provincia">Provincia: </label>
+
+        <select id="Provincia" name="PRovincia" required>
+            <option value="">Selecciona una opción</option>
+            <option value="Tierra del fuego">Tierra del fuego</option>
+            <option value="Santa Cruz">Santa Cruz</option>
+            <option value="Chubut">Chubut</option>
+            <option value="Rio Negro">Rio Negro</option>
+            <option value="Neuquen">Neuquen</option>
+            <option value="La Pampa">La Pampa</option>
+            <option value="Mendoza">Mendoza</option>
+            <option value="Buenos Aires">Buenos Aires</option>
+            <option value="San Luis">San Luis</option>
+            <option value="Cordoba">Cordoba</option>
+            <option value="Santa Fe">Santa Fe</option>
+            <option value="Entre Rios">Entre Rios</option>
+            <option value="La Rioja">La Rioja</option>
+            <option value="Santiago del Estero">Santiago del Estero</option>
+            <option value="Chaco">Chaco</option>
+            <option value="Corrientes">Corrientes</option>
+            <option value="Tucuman">Tucuman</option>
+            <option value="Catamarca">Catamarca</option>
+            <option value="Salta">Salta</option>
+            <option value="Jujuy">Jujuy</option>
+            <option value="Formosa">Formosa</option>
+            <option value="Misiones">Misiones</option>
+            <option value="San Juan">San Juan</option>
+        </select>
+
+
+        <div>
+            <label for="Ciudad">Ciudad</label>
+            <input type="text" name="Ciudad" id="Ciudad" required>
+        </div>
+
+        </fieldset>
+
+        <fieldset>
+        <legend>Marca preferida de auto</legend>
+        <label for="Vehiculo">Vehiculo</label>
+        <select id="Vehiculo" name="Vehicuñp" required>
+            <option value="">Selecciona una opción</option>
+            <option value="Ford">Ford</option>
+            <option value="Renault">Renault</option>
+            <option value="Fiat">Fiat</option>
+            <option value="Chevrolet">Chevrolet</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Volkswagen">Volkswagen</option>
+        </select>
+
+        </fieldset>
+
+        <div>
+            <input type="submit" value="Completar">
+        </div>
+    </form>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
